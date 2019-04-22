@@ -138,6 +138,7 @@ body {
   color: #f1f1ff;
   margin: 0;
 }
+
 .footer-panel {
   float: left;
   width: 50%;
@@ -158,9 +159,19 @@ body {
   margin: 4rem 0;
 }
 
-.sub-judul {
-  font-size: 1.3rem !important;
-  width: 100% !important;
+
+
+.content {
+  margin: 10%;
+  padding: 1% 5%;
+  border: 1px;
+  border: 3px solid black;
+}
+
+
+
+img {
+  width: 50%;
 }
 
 .text-desc {
