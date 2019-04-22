@@ -104,6 +104,14 @@ body {
 
 .panel-right img {
   margin-top: 4rem;
+  width: 40rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .58);
+}
+
+.thumbnail{
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .58);
 }
 
 .title {}
