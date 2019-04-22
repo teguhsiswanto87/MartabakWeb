@@ -174,6 +174,16 @@ img {
   width: 50%;
 }
 
+.images img {
+
+  width: 10%;
+  float: left;
+  box-shadow: 10px 5px 5px grey;
+
+}
+
+
+
 .text-desc {
   font-size: 1.125rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
