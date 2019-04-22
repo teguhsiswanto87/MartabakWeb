@@ -22,18 +22,18 @@ body {
   float: left;
   color: #f1f1ff;
   text-align: center;
-  padding: .5rem;
+  padding: .5rem 1rem;
   text-decoration: none;
   font-size: .875rem;
   line-height: 1.5rem;
   border-radius: 4px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Change the background color on mouse-over */
@@ -69,8 +69,8 @@ body {
 /* ----------------------------CONTENT */
 .container {
   width: 100%;
-  height: 25rem;
-  background: #2460BE;
+  min-height: 25rem;
+  /* background: #2460BE; */
   padding: 0;
   margin: 0;
 }
@@ -80,7 +80,6 @@ body {
   height: 100%;
   /* background: #222; */
   float: left;
-  color: #f1f1f1;
 }
 
 .panel-left h1 {
@@ -109,24 +108,62 @@ body {
 
 .title {}
 
+.row {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  min-height: 11rem;
+  width: 100%;
+}
+
+.column {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+.panel {
+  float: left;
+  min-height: 10rem;
+  width: 50%;
+}
+
 /* ----------------------------FOOTER */
 
 .footer {
   width: 100%;
-  height: 5rem;
-  background: #bbb;
+  height: 4rem;
+  background: #1842A2;
+  padding: .5rem 0rem;
+  color: #f1f1ff;
+  margin: 0;
+}
+.footer-panel {
+  float: left;
+  width: 50%;
 }
 
 
 /* ----------------------------utilities */
+
+.text-center {
+  text-align: center;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.margin-y {
+  margin: 4rem 0;
+}
 
 .sub-judul {
   font-size: 1.3rem !important;
   width: 100% !important;
 }
 
-.desc-panel {
-  width: 50%;
-  font-size: 1rem;
-  text-align: justify;
+.text-desc {
+  font-size: 1.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
